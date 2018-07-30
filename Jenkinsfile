@@ -1,14 +1,13 @@
 pipeline {
     agent any
      tools {
-        maven 'Apache Maven 3.5.4'
-        jdk 'jdk8'
+        maven 'M2_HOME'
     }
   
     stages {
         stage('Example') {
             steps {
-                sh 'java -version'
+           
                 sh 'mvn --version'
             }
         }
