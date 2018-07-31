@@ -14,3 +14,5 @@ pipeline {
         }
     }
 }
+
+//The tool name must be pre-configured in Jenkins under Manage Jenkins → Global Tool Configuration.
