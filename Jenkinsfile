@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Example') {
+        stage('Exampleeeeeeee') {
            // input {
                // message "Should we continue?"
                 //ok "Yes, we should."
